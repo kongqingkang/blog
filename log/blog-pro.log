@@ -1,0 +1,3 @@
+2019-11-10 16:06:41.228  INFO 13224 --- [restartedMain] com.kqk.blog.BlogApplication             : Starting BlogApplication on kqk19961027 with PID 13224 (D:\space\blog\target\classes started by Administrator in D:\space\blog)
+2019-11-10 16:06:41.232  INFO 13224 --- [restartedMain] com.kqk.blog.BlogApplication             : The following profiles are active: pro
+2019-11-10 16:06:43.585  INFO 13224 --- [restartedMain] com.kqk.blog.BlogApplication             : Started BlogApplication in 3.405 seconds (JVM running for 5.817)

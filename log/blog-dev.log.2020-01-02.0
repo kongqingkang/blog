@@ -1,0 +1,268 @@
+2020-01-02 08:16:29.796  INFO 4416 --- [restartedMain] com.kqk.blog.BlogApplication             : Starting BlogApplication on kqk19961027 with PID 4416 (D:\space\blog\target\classes started by Administrator in D:\space\blog)
+2020-01-02 08:16:29.824 DEBUG 4416 --- [restartedMain] com.kqk.blog.BlogApplication             : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-01-02 08:16:29.825  INFO 4416 --- [restartedMain] com.kqk.blog.BlogApplication             : The following profiles are active: dev
+2020-01-02 08:16:30.038  INFO 4416 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\Administrator\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/Administrator/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/Administrator/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/Administrator/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/Administrator/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/Administrator/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/Administrator/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-01-02 08:16:30.039  INFO 4416 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-01-02 08:16:30.040  INFO 4416 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-01-02 08:16:36.648  INFO 4416 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-01-02 08:16:38.185  INFO 4416 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1192ms. Found 5 repository interfaces.
+2020-01-02 08:16:44.830  INFO 4416 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-02 08:16:50.877  INFO 4416 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-02 08:16:50.983  INFO 4416 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-02 08:16:50.985  INFO 4416 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-01-02 08:16:51.402  INFO 4416 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-02 08:16:51.403  INFO 4416 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 21363 ms
+2020-01-02 08:16:52.178  INFO 4416 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-01-02 08:16:53.002  INFO 4416 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2020-01-02 08:16:54.586  INFO 4416 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-01-02 08:16:55.173  INFO 4416 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-01-02 08:16:55.716  INFO 4416 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-01-02 08:16:55.887  INFO 4416 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-01-02 08:17:00.386  INFO 4416 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-01-02 08:17:00.410  INFO 4416 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-01-02 08:17:00.634  INFO 4416 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-02 08:17:03.984  WARN 4416 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-02 08:17:04.922  INFO 4416 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-02 08:17:05.198  INFO 4416 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-02 08:17:07.259  INFO 4416 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-02 08:17:07.264  INFO 4416 --- [restartedMain] com.kqk.blog.BlogApplication             : Started BlogApplication in 40.6 seconds (JVM running for 55.3)
+2020-01-02 08:17:23.447  INFO 4416 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-02 08:17:23.450  INFO 4416 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-01-02 08:17:23.532  INFO 4416 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 81 ms
+2020-01-02 08:17:23.775 ERROR 4416 --- [http-nio-8080-exec-1] c.k.b.h.ControllerExceptionHandler       : Request URL : http://127.0.0.1:8080/admin/login , Exception : {} , 
+
+org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.handleNoMatch(RequestMappingInfoHandlerMapping.java:201)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:421)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:367)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.getHandlerInternal(RequestMappingHandlerMapping.java:449)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.getHandlerInternal(RequestMappingHandlerMapping.java:67)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:393)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1234)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1016)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1579)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+2020-01-02 08:17:23.810  WARN 4416 --- [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2020-01-02 08:26:26.737  INFO 4416 --- [http-nio-8080-exec-6] com.kqk.blog.aspect.LogAspect            : Request:{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', className='com.kqk.blog.web.IndexController.index', args=[Page request [number: 0, size 10, sort: updateTime: DESC], {}]}
+2020-01-02 08:26:28.752  WARN 4416 --- [http-nio-8080-exec-6] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-01-02 08:26:28.856  WARN 4416 --- [http-nio-8080-exec-6] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-01-02 08:26:28.873  INFO 4416 --- [http-nio-8080-exec-6] com.kqk.blog.aspect.LogAspect            : Result:{index}
+2020-01-02 08:26:31.395  INFO 4416 --- [http-nio-8080-exec-8] com.kqk.blog.aspect.LogAspect            : Request:{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', className='com.kqk.blog.web.IndexController.newblogs', args=[{}]}
+2020-01-02 08:26:31.417  INFO 4416 --- [http-nio-8080-exec-8] com.kqk.blog.aspect.LogAspect            : Result:{_fragments::newblogList}
+2020-01-02 08:26:38.431  INFO 4416 --- [http-nio-8080-exec-3] com.kqk.blog.aspect.LogAspect            : Request:{url='http://localhost:8080/types/-1', ip='0:0:0:0:0:0:0:1', className='com.kqk.blog.web.TypeShowController.types', args=[Page request [number: 0, size 10, sort: updateTime: DESC], -1, {}]}
+2020-01-02 08:26:38.578  INFO 4416 --- [http-nio-8080-exec-3] com.kqk.blog.aspect.LogAspect            : Result:{types}
+2020-01-02 08:26:40.352  INFO 4416 --- [http-nio-8080-exec-7] com.kqk.blog.aspect.LogAspect            : Request:{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', className='com.kqk.blog.web.IndexController.newblogs', args=[{}]}
+2020-01-02 08:26:40.542  INFO 4416 --- [http-nio-8080-exec-7] com.kqk.blog.aspect.LogAspect            : Result:{_fragments::newblogList}
+2020-01-02 08:26:42.099  INFO 4416 --- [http-nio-8080-exec-6] com.kqk.blog.aspect.LogAspect            : Request:{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', className='com.kqk.blog.web.IndexController.index', args=[Page request [number: 0, size 10, sort: updateTime: DESC], {}]}
+2020-01-02 08:26:42.134  INFO 4416 --- [http-nio-8080-exec-6] com.kqk.blog.aspect.LogAspect            : Result:{index}
+2020-01-02 08:26:42.936  INFO 4416 --- [http-nio-8080-exec-10] com.kqk.blog.aspect.LogAspect            : Request:{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', className='com.kqk.blog.web.IndexController.newblogs', args=[{}]}
+2020-01-02 08:26:42.961  INFO 4416 --- [http-nio-8080-exec-10] com.kqk.blog.aspect.LogAspect            : Result:{_fragments::newblogList}
+2020-01-02 08:26:53.483  INFO 4416 --- [http-nio-8080-exec-1] com.kqk.blog.aspect.LogAspect            : Request:{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', className='com.kqk.blog.web.IndexController.index', args=[Page request [number: 0, size 10, sort: updateTime: DESC], {}]}
+2020-01-02 08:26:53.524  INFO 4416 --- [http-nio-8080-exec-1] com.kqk.blog.aspect.LogAspect            : Result:{index}
+2020-01-02 08:26:56.456  INFO 4416 --- [http-nio-8080-exec-5] com.kqk.blog.aspect.LogAspect            : Request:{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', className='com.kqk.blog.web.IndexController.newblogs', args=[{}]}
+2020-01-02 08:26:56.471  INFO 4416 --- [http-nio-8080-exec-5] com.kqk.blog.aspect.LogAspect            : Result:{_fragments::newblogList}
+2020-01-02 08:27:58.543 ERROR 4416 --- [http-nio-8080-exec-3] c.k.b.h.ControllerExceptionHandler       : Request URL : http://localhost:8080/admin/login , Exception : {} , 
+
+org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.handleNoMatch(RequestMappingInfoHandlerMapping.java:201)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:421)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:367)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.getHandlerInternal(RequestMappingHandlerMapping.java:449)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.getHandlerInternal(RequestMappingHandlerMapping.java:67)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:393)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1234)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1016)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1579)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+2020-01-02 08:27:58.544  WARN 4416 --- [http-nio-8080-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2020-01-02 08:29:41.981  INFO 4416 --- [http-nio-8080-exec-10] com.kqk.blog.aspect.LogAspect            : Request:{url='http://localhost:8080/blog/24', ip='0:0:0:0:0:0:0:1', className='com.kqk.blog.web.IndexController.blog', args=[24, {}]}
+2020-01-02 08:29:42.437  INFO 4416 --- [http-nio-8080-exec-10] com.kqk.blog.aspect.LogAspect            : Result:{blog}
+2020-01-02 08:29:43.537  INFO 4416 --- [http-nio-8080-exec-8] com.kqk.blog.aspect.LogAspect            : Request:{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', className='com.kqk.blog.web.IndexController.newblogs', args=[{}]}
+2020-01-02 08:29:43.550  INFO 4416 --- [http-nio-8080-exec-8] com.kqk.blog.aspect.LogAspect            : Result:{_fragments::newblogList}
+2020-01-02 08:29:43.651  INFO 4416 --- [http-nio-8080-exec-7] com.kqk.blog.aspect.LogAspect            : Request:{url='http://localhost:8080/comments/24', ip='0:0:0:0:0:0:0:1', className='com.kqk.blog.web.CommentController.comments', args=[24, {}]}
+2020-01-02 08:29:43.773  INFO 4416 --- [http-nio-8080-exec-7] com.kqk.blog.aspect.LogAspect            : Result:{blog::commentList}
+2020-01-02 08:29:58.550  INFO 4416 --- [http-nio-8080-exec-2] com.kqk.blog.aspect.LogAspect            : Request:{url='http://localhost:8080/blog/22', ip='0:0:0:0:0:0:0:1', className='com.kqk.blog.web.IndexController.blog', args=[22, {}]}
+2020-01-02 08:29:58.777  INFO 4416 --- [http-nio-8080-exec-2] com.kqk.blog.aspect.LogAspect            : Result:{blog}
+2020-01-02 08:29:59.634  INFO 4416 --- [http-nio-8080-exec-4] com.kqk.blog.aspect.LogAspect            : Request:{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', className='com.kqk.blog.web.IndexController.newblogs', args=[{}]}
+2020-01-02 08:29:59.645  INFO 4416 --- [http-nio-8080-exec-4] com.kqk.blog.aspect.LogAspect            : Result:{_fragments::newblogList}
+2020-01-02 08:29:59.725  INFO 4416 --- [http-nio-8080-exec-1] com.kqk.blog.aspect.LogAspect            : Request:{url='http://localhost:8080/comments/22', ip='0:0:0:0:0:0:0:1', className='com.kqk.blog.web.CommentController.comments', args=[22, {}]}
+2020-01-02 08:29:59.728  INFO 4416 --- [http-nio-8080-exec-1] com.kqk.blog.aspect.LogAspect            : Result:{blog::commentList}
+2020-01-02 08:30:16.191  INFO 4416 --- [http-nio-8080-exec-2] com.kqk.blog.aspect.LogAspect            : Request:{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', className='com.kqk.blog.web.IndexController.index', args=[Page request [number: 0, size 10, sort: updateTime: DESC], {}]}
+2020-01-02 08:30:16.229  INFO 4416 --- [http-nio-8080-exec-2] com.kqk.blog.aspect.LogAspect            : Result:{index}
+2020-01-02 08:30:16.893  INFO 4416 --- [http-nio-8080-exec-6] com.kqk.blog.aspect.LogAspect            : Request:{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', className='com.kqk.blog.web.IndexController.newblogs', args=[{}]}
+2020-01-02 08:30:16.908  INFO 4416 --- [http-nio-8080-exec-6] com.kqk.blog.aspect.LogAspect            : Result:{_fragments::newblogList}
+2020-01-02 08:30:55.415  INFO 4416 --- [http-nio-8080-exec-8] com.kqk.blog.aspect.LogAspect            : Request:{url='http://localhost:8080/types/-1', ip='0:0:0:0:0:0:0:1', className='com.kqk.blog.web.TypeShowController.types', args=[Page request [number: 0, size 10, sort: updateTime: DESC], -1, {}]}
+2020-01-02 08:30:55.438  INFO 4416 --- [http-nio-8080-exec-8] com.kqk.blog.aspect.LogAspect            : Result:{types}
+2020-01-02 08:30:56.331  INFO 4416 --- [http-nio-8080-exec-10] com.kqk.blog.aspect.LogAspect            : Request:{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', className='com.kqk.blog.web.IndexController.newblogs', args=[{}]}
+2020-01-02 08:30:56.345  INFO 4416 --- [http-nio-8080-exec-10] com.kqk.blog.aspect.LogAspect            : Result:{_fragments::newblogList}
+2020-01-02 08:30:57.334  INFO 4416 --- [http-nio-8080-exec-6] com.kqk.blog.aspect.LogAspect            : Request:{url='http://localhost:8080/tags/-1', ip='0:0:0:0:0:0:0:1', className='com.kqk.blog.web.TagShowController.types', args=[Page request [number: 0, size 10, sort: updateTime: DESC], -1, {}]}
+2020-01-02 08:30:57.495  INFO 4416 --- [http-nio-8080-exec-6] com.kqk.blog.aspect.LogAspect            : Result:{tags}
+2020-01-02 08:30:58.280  INFO 4416 --- [http-nio-8080-exec-7] com.kqk.blog.aspect.LogAspect            : Request:{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', className='com.kqk.blog.web.IndexController.newblogs', args=[{}]}
+2020-01-02 08:30:58.294  INFO 4416 --- [http-nio-8080-exec-7] com.kqk.blog.aspect.LogAspect            : Result:{_fragments::newblogList}
+2020-01-02 08:30:59.660  INFO 4416 --- [http-nio-8080-exec-2] com.kqk.blog.aspect.LogAspect            : Request:{url='http://localhost:8080/archives', ip='0:0:0:0:0:0:0:1', className='com.kqk.blog.web.ArchiveShowController.archives', args=[{}]}
+2020-01-02 08:30:59.798  INFO 4416 --- [http-nio-8080-exec-2] com.kqk.blog.aspect.LogAspect            : Result:{archives}
+2020-01-02 08:31:00.688  INFO 4416 --- [http-nio-8080-exec-9] com.kqk.blog.aspect.LogAspect            : Request:{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', className='com.kqk.blog.web.IndexController.newblogs', args=[{}]}
+2020-01-02 08:31:00.699  INFO 4416 --- [http-nio-8080-exec-9] com.kqk.blog.aspect.LogAspect            : Result:{_fragments::newblogList}
+2020-01-02 08:31:01.906  INFO 4416 --- [http-nio-8080-exec-1] com.kqk.blog.aspect.LogAspect            : Request:{url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', className='com.kqk.blog.web.AboutShowController.about', args=[]}
+2020-01-02 08:31:01.920  INFO 4416 --- [http-nio-8080-exec-1] com.kqk.blog.aspect.LogAspect            : Result:{about}
+2020-01-02 08:31:02.639  INFO 4416 --- [http-nio-8080-exec-4] com.kqk.blog.aspect.LogAspect            : Request:{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', className='com.kqk.blog.web.IndexController.newblogs', args=[{}]}
+2020-01-02 08:31:02.651  INFO 4416 --- [http-nio-8080-exec-4] com.kqk.blog.aspect.LogAspect            : Result:{_fragments::newblogList}
+2020-01-02 08:31:06.140  INFO 4416 --- [http-nio-8080-exec-9] com.kqk.blog.aspect.LogAspect            : Request:{url='http://localhost:8080/archives', ip='0:0:0:0:0:0:0:1', className='com.kqk.blog.web.ArchiveShowController.archives', args=[{}]}
+2020-01-02 08:31:06.177  INFO 4416 --- [http-nio-8080-exec-9] com.kqk.blog.aspect.LogAspect            : Result:{archives}
+2020-01-02 08:31:06.861  INFO 4416 --- [http-nio-8080-exec-8] com.kqk.blog.aspect.LogAspect            : Request:{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', className='com.kqk.blog.web.IndexController.newblogs', args=[{}]}
+2020-01-02 08:31:06.869  INFO 4416 --- [http-nio-8080-exec-8] com.kqk.blog.aspect.LogAspect            : Result:{_fragments::newblogList}
+2020-01-02 08:31:08.550  INFO 4416 --- [http-nio-8080-exec-10] com.kqk.blog.aspect.LogAspect            : Request:{url='http://localhost:8080/tags/-1', ip='0:0:0:0:0:0:0:1', className='com.kqk.blog.web.TagShowController.types', args=[Page request [number: 0, size 10, sort: updateTime: DESC], -1, {}]}
+2020-01-02 08:31:08.600  INFO 4416 --- [http-nio-8080-exec-10] com.kqk.blog.aspect.LogAspect            : Result:{tags}
+2020-01-02 08:31:09.174  INFO 4416 --- [http-nio-8080-exec-2] com.kqk.blog.aspect.LogAspect            : Request:{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', className='com.kqk.blog.web.IndexController.newblogs', args=[{}]}
+2020-01-02 08:31:09.185  INFO 4416 --- [http-nio-8080-exec-2] com.kqk.blog.aspect.LogAspect            : Result:{_fragments::newblogList}
+2020-01-02 08:31:10.327  INFO 4416 --- [http-nio-8080-exec-7] com.kqk.blog.aspect.LogAspect            : Request:{url='http://localhost:8080/types/-1', ip='0:0:0:0:0:0:0:1', className='com.kqk.blog.web.TypeShowController.types', args=[Page request [number: 0, size 10, sort: updateTime: DESC], -1, {}]}
+2020-01-02 08:31:10.349  INFO 4416 --- [http-nio-8080-exec-7] com.kqk.blog.aspect.LogAspect            : Result:{types}
+2020-01-02 08:31:11.142  INFO 4416 --- [http-nio-8080-exec-4] com.kqk.blog.aspect.LogAspect            : Request:{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', className='com.kqk.blog.web.IndexController.newblogs', args=[{}]}
+2020-01-02 08:31:11.151  INFO 4416 --- [http-nio-8080-exec-4] com.kqk.blog.aspect.LogAspect            : Result:{_fragments::newblogList}
+2020-01-02 08:31:14.797  INFO 4416 --- [http-nio-8080-exec-6] com.kqk.blog.aspect.LogAspect            : Request:{url='http://localhost:8080/types/4', ip='0:0:0:0:0:0:0:1', className='com.kqk.blog.web.TypeShowController.types', args=[Page request [number: 0, size 10, sort: updateTime: DESC], 4, {}]}
+2020-01-02 08:31:14.839  INFO 4416 --- [http-nio-8080-exec-6] com.kqk.blog.aspect.LogAspect            : Result:{types}
+2020-01-02 08:31:15.589  INFO 4416 --- [http-nio-8080-exec-2] com.kqk.blog.aspect.LogAspect            : Request:{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', className='com.kqk.blog.web.IndexController.newblogs', args=[{}]}
+2020-01-02 08:31:15.599  INFO 4416 --- [http-nio-8080-exec-2] com.kqk.blog.aspect.LogAspect            : Result:{_fragments::newblogList}
+2020-01-02 08:31:17.934  INFO 4416 --- [http-nio-8080-exec-4] com.kqk.blog.aspect.LogAspect            : Request:{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', className='com.kqk.blog.web.IndexController.index', args=[Page request [number: 0, size 10, sort: updateTime: DESC], {}]}
+2020-01-02 08:31:17.965  INFO 4416 --- [http-nio-8080-exec-4] com.kqk.blog.aspect.LogAspect            : Result:{index}
+2020-01-02 08:31:18.690  INFO 4416 --- [http-nio-8080-exec-7] com.kqk.blog.aspect.LogAspect            : Request:{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', className='com.kqk.blog.web.IndexController.newblogs', args=[{}]}
+2020-01-02 08:31:18.699  INFO 4416 --- [http-nio-8080-exec-7] com.kqk.blog.aspect.LogAspect            : Result:{_fragments::newblogList}
+2020-01-02 08:32:34.706 ERROR 4416 --- [http-nio-8080-exec-3] c.k.b.h.ControllerExceptionHandler       : Request URL : http://localhost:8080/admin/login , Exception : {} , 
+
+org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.handleNoMatch(RequestMappingInfoHandlerMapping.java:201)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:421)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:367)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.getHandlerInternal(RequestMappingHandlerMapping.java:449)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.getHandlerInternal(RequestMappingHandlerMapping.java:67)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:393)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1234)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1016)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1579)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+2020-01-02 08:32:34.711  WARN 4416 --- [http-nio-8080-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2020-01-02 08:38:41.332  WARN 4416 --- [http-nio-8080-exec-4] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [841] milliseconds.
+2020-01-02 08:39:34.213  INFO 4416 --- [http-nio-8080-exec-8] com.kqk.blog.aspect.LogAspect            : Request:{url='http://localhost:8080/blog/24', ip='0:0:0:0:0:0:0:1', className='com.kqk.blog.web.IndexController.blog', args=[24, {}]}
+2020-01-02 08:39:34.382  INFO 4416 --- [http-nio-8080-exec-8] com.kqk.blog.aspect.LogAspect            : Result:{blog}
+2020-01-02 08:39:34.965  INFO 4416 --- [http-nio-8080-exec-6] com.kqk.blog.aspect.LogAspect            : Request:{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', className='com.kqk.blog.web.IndexController.newblogs', args=[{}]}
+2020-01-02 08:39:34.980  INFO 4416 --- [http-nio-8080-exec-6] com.kqk.blog.aspect.LogAspect            : Result:{_fragments::newblogList}
+2020-01-02 08:39:35.070  INFO 4416 --- [http-nio-8080-exec-5] com.kqk.blog.aspect.LogAspect            : Request:{url='http://localhost:8080/comments/24', ip='0:0:0:0:0:0:0:1', className='com.kqk.blog.web.CommentController.comments', args=[24, {}]}
+2020-01-02 08:39:35.074  INFO 4416 --- [http-nio-8080-exec-5] com.kqk.blog.aspect.LogAspect            : Result:{blog::commentList}
+2020-01-02 08:40:11.036  INFO 4416 --- [http-nio-8080-exec-8] com.kqk.blog.aspect.LogAspect            : Request:{url='http://localhost:8080/comments', ip='0:0:0:0:0:0:0:1', className='com.kqk.blog.web.CommentController.post', args=[Comment{id=null, nickname='废柴Kong', email='1170830826@qq.com', content='你好', avatar='null', createTime=null, blog=Blog{id=24, title='null', content='null', firstPicture='null', flag='null', views=null, appreciation=false, shareStatement=false, commentabled=false, published=false, recommend=false, createTime=null, updateTime=null, type=null, tags=[], user=null, comments=[], tagIds='null', description='null'}, replyComments=[], parentComment=Comment{id=-1, nickname='null', email='null', content='null', avatar='null', createTime=null, blog=null, replyComments=[], parentComment=null, adminComment=false}, adminComment=false}, org.apache.catalina.session.StandardSessionFacade@4e9b1940]}
+2020-01-02 08:40:11.319  INFO 4416 --- [http-nio-8080-exec-8] com.kqk.blog.aspect.LogAspect            : Result:{redirect:/comments/24}
+2020-01-02 08:40:11.355  INFO 4416 --- [http-nio-8080-exec-4] com.kqk.blog.aspect.LogAspect            : Request:{url='http://localhost:8080/comments/24', ip='0:0:0:0:0:0:0:1', className='com.kqk.blog.web.CommentController.comments', args=[24, {}]}
+2020-01-02 08:40:11.362  INFO 4416 --- [http-nio-8080-exec-4] com.kqk.blog.aspect.LogAspect            : Result:{blog::commentList}
